@@ -1,0 +1,225 @@
+##CIF_1.1
+
+data_sm_global
+#Used dictionaries
+loop_
+_audit_conform_dict_name
+_audit_conform_dict_version
+_audit_conform_dict_location
+cif_core.dic 	2.4.2 	.
+cif_pd.dic 		1.0.1 	.
+cif_sm.dic 		0.1 	'redaktion.landolt-boernstein(at)springer.com'
+
+#About this content and reference
+_sm_credits_copyright
+;PAULING FILE Multinaries Edition - 2012. SpringerMaterials Release 2014.
+http://www.paulingfile.com
+Unique LPF ID Number SD1702400
+Project Coordinator: Shuichi Iwata
+Section-Editors: Karin Cenzual (Crystal Structures), Hiroaki Okamoto (Phase 
+Diagrams), Fritz Hulliger (Physical Properties)
+(c) Springer & Material Phases Data System (MPDS), Switzerland & National 
+Institute for Materials Science (NIMS), Japan 2014.
+(Data generated pre-2002: (c) Springer & MPDS & NIMS; 
+post-2001: (c) Springer & MPDS)
+All Rights Reserved. Version 2014.06.
+;
+
+_audit_creation_method
+;This data have been compiled from the crystallographic datasheet for 
+"Li3InCl6 Crystal Structure" 
+taken from SpringerMaterials (sm_isp_sd_1702400).
+;
+
+_publ_section_references
+;Schmidt M.O., Wickleder M.S., Meyer G.: <i>Ternary Halides of the A<sub>3</sub>MX<sub>6</sub> Type. VIII. On the Crystal Structure of Li<sub>3</sub>InCl<sub>6</sub></i>. Zeitschrift fur Anorganische und Allgemeine Chemie <b>625</b> (1999) 539-540 (in German).
+;
+
+#Phase classification
+_sm_phase_labels				'Li3InCl6 ht'
+_chemical_name_mineral			''
+_sm_chemical_compound_class		'chloride'
+_sm_phase_prototype				'Li5 ReO6 '
+_sm_pearson_symbol				'mS24'
+_symmetry_Int_Tables_number		12
+_sm_sample_details
+;sample prepared from LiCl, InCl<sub>3</sub>, 
+single crystal (determination of cell parameters), 
+single crystal, 0.05 mm<sup>3</sup> (determination of structural parameters)
+;
+_sm_measurement_details
+;automatic diffractometer; 2000 (determination of cell parameters), 
+automatic diffractometer; STOE IPDS (determination of structural parameters), 
+X-rays, Mo K&#x03b1; (determination of cell and structural parameters)
+;
+_sm_interpretation_details
+;complete structure determined, 
+least-squares refinement; 313 reflections; I &#x003e; 2&#x03c3;(I), 
+<i>R</i> = 0.0543; <i>wR</i> = 0.1352
+;
+
+data_sm_isp_SD1702400-standardized_unitcell
+#Cell Parameters
+_cell_length_a					6.432
+_cell_length_b					11.093
+_cell_length_c					6.398
+_cell_angle_alpha				90
+_cell_angle_beta				109.8
+_cell_angle_gamma				90
+_sm_length_ratio_ab				0.580
+_sm_length_ratio_bc				1.734
+_sm_length_ratio_ca				0.995
+_cell_volume 					429.5
+_symmetry_space_group_name_H-M	'C12/m1'
+_symmetry_Int_Tables_number		12
+_cell_formula_units_Z			2
+_sm_cell_transformation
+;origin shift 0 1/2 0
+;
+
+#Atom Coordinates
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_Wyckoff_symbol
+_sm_site_symmetry
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_sm_coordination_number
+_sm_atomic_environment_type
+Cl1 'Cl' .8j .1 0.2421 0.3378 0.2388 1 6 'octahedron, In<sub>3</sub>Li<sub>3</sub>'
+Cl2 'Cl' .4i .m 0.255 0 0.2338 1 6 'octahedron, In<sub>3</sub>Li<sub>3</sub>'
+Li1 'Li' .4h .2 0 0.3317 0.5 1 6 'octahedron, Cl<sub>6</sub>'
+In2 'In' .4g .2 0 0.1667 0 0.07 6 'octahedron, Cl<sub>6</sub>'
+Li2 'Li' .2c .2/m 0 0 0.5 1 6 'octahedron, Cl<sub>6</sub>'
+In1 'In' .2b .2/m 0 0.5 0 0.875 6 'octahedron, Cl<sub>6</sub>'
+
+_sm_atom_site_transformation
+;origin shift 0 1/2 0
+;
+
+#Isotropic Displacement Parameters
+loop_
+_atom_site_label_1
+_atom_site_U_iso_or_equiv
+_sm_atom_site_isotropic_displacement_parameter_type
+_atom_site_B_equiv_geom_mean
+Li1 0.00126(28) 'Ueq' 0.09973
+Li2 0.00276(138) 'Ueq' 0.21783
+In1 0.000191(7) 'Ueq' 0.01505
+In2 0.00042(4) 'Ueq' 0.03286
+Cl1 0.000309(10) 'Ueq' 0.0243
+Cl2 0.0003(1) 'Ueq' 0.02388
+
+#Anisotropic Displacement Parameters
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_22
+_atom_site_aniso_U_23
+_atom_site_aniso_U_33
+Li1 0.054(25) 0 0.024(24) 0.229(86) 0 0.095(35)
+Li2 0.087(62) 0 -0.059(110) 0.081(60) 0 0.534(336)
+In1 0.0181(9) 0 0.0155(7) 0.0145(9) 0 0.0302(10)
+In2 0.044(10) 0 0.0238(9) 0.038(10) 0 0.049(10)
+Cl1 0.032(2) -0.0043(9) 0.015(1) 0.027(2) -0.003(9) 0.036(2)
+Cl2 0.031(2) 0 0.022(2) 0.033(2) 0 0.035(2)
+
+data_sm_isp_SD1702400-published_cell
+#Cell Parameters
+_cell_length_a					6.432(3)
+_cell_length_b					11.093(3)
+_cell_length_c					6.398(3)
+_cell_angle_alpha				90
+_cell_angle_beta				109.8(1)
+_cell_angle_gamma				90
+_sm_length_ratio_ab				0.580
+_sm_length_ratio_bc				1.734
+_sm_length_ratio_ca				0.995
+_cell_volume 					429.51
+_symmetry_space_group_name_H-M	'C12/m1'
+_symmetry_Int_Tables_number		12
+_cell_formula_units_Z			2
+
+#Atom Coordinates
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_Wyckoff_symbol
+_sm_site_symmetry
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_sm_coordination_number
+_sm_atomic_environment_type
+Li1 'Li' .4h .2 0 0.1683(8) 0.5 1 ? '?'
+Li2 'Li' .2d .2/m 0.5 0 0.5 1 ? '?'
+In1 'In' .2a .2/m 0 0 0 0.875(5) ? '?'
+In2 'In' .4g .2 0 0.3333(15) 0 0.070(3) ? '?'
+Cl1 'Cl' .8j .1 0.2421(4) 0.1622(2) 0.2388(4) 1 ? '?'
+Cl2 'Cl' .4i .m 0.245(5) 0 -0.2338(5) 1 ? '?'
+
+#Isotropic Displacement Parameters
+loop_
+_atom_site_label_1
+_atom_site_U_iso_or_equiv
+_sm_atom_site_isotropic_displacement_parameter_type
+_atom_site_B_equiv_geom_mean
+Li1 0.00126(28) 'Ueq' 0.09973
+Li2 0.00276(138) 'Ueq' 0.21783
+In1 0.000191(7) 'Ueq' 0.01505
+In2 0.00042(4) 'Ueq' 0.03286
+Cl1 0.000309(10) 'Ueq' 0.0243
+Cl2 0.0003(1) 'Ueq' 0.02388
+
+#Anisotropic Displacement Parameters
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_22
+_atom_site_aniso_U_23
+_atom_site_aniso_U_33
+Li1 0.054(25) 0 0.024(24) 0.229(86) 0 0.095(35)
+Li2 0.087(62) 0 -0.059(110) 0.081(60) 0 0.534(336)
+In1 0.0181(9) 0 0.0155(7) 0.0145(9) 0 0.0302(10)
+In2 0.044(10) 0 0.0238(9) 0.038(10) 0 0.049(10)
+Cl1 0.032(2) -0.0043(9) 0.015(1) 0.027(2) -0.003(9) 0.036(2)
+Cl2 0.031(2) 0 0.022(2) 0.033(2) 0 0.035(2)
+
+data_sm_isp_SD1702400-niggli_reduced_cell
+#Cell Parameters
+_cell_length_a					6.398
+_cell_length_b					6.4114
+_cell_length_c					6.4114
+_cell_angle_alpha				119.788
+_cell_angle_beta				99.783
+_cell_angle_gamma				99.783
+_sm_length_ratio_ab				0.998
+_sm_length_ratio_bc				1.000
+_sm_length_ratio_ca				1.002
+_cell_volume 					214.75
+_symmetry_space_group_name_H-M	''
+_symmetry_Int_Tables_number		?
+_cell_formula_units_Z			2
+
+#Atom Coordinates
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_Wyckoff_symbol
+_sm_site_symmetry
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_sm_coordination_number
+_sm_atomic_environment_type
+? ? ? ? ? ? ? ? ? ?
+
