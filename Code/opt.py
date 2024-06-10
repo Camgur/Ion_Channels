@@ -1,4 +1,5 @@
 import sys
+import os
 
 import torch
 import numpy as np
@@ -22,6 +23,8 @@ from ase.spacegroup.symmetrize import FixSymmetry, check_symmetry
 
 # Set File
 file = sys.argv[1]
+filename = os.path.basename(file)
+base = '/home/cgurwell/scratch/optimise/'
 
 # Importing CIF
 atoms = read(file)
@@ -35,7 +38,7 @@ atoms.calc = calculator
 atoms.set_constraint(FixSymmetry(atoms))
 
 # Run Optimise
-opt = BFGS(UnitCellFilter(atoms), trajectory=file.replace('.cif', '.traj'))
+opt = BFGS(UnitCellFilter(atoms), trajectory=base + filename.replace('.cif', '.traj'))
 opt.run(fmax=1e-4)
 
-atoms.write(file.replace('.cif', '.traj'))
+atoms.write(base + filename)

@@ -13,9 +13,6 @@ structures = mpr.materials.insertion_electrodes.search(working_ion='Li', fields=
 
 x = 0
 
-# print(type(structures[0]))
-# assert 0
-
 # Parse structures
 for structure in structures:
     id = structure.material_ids
@@ -27,7 +24,9 @@ for structure in structures:
     cif_data = cif.to(fmt="cif")
 
     # Set output directory
-    output = os.path.join(module_path, 'cif/', id[0].join('.cif'))
+    output = os.path.join(module_path, 'cif', id[0] + '.cif')
+    # print(output)
+    # assert 0
 
     # Write to CIF
     with open(output, "w") as f:
@@ -39,11 +38,10 @@ for structure in structures:
         time.sleep(5)
 
 
-'''
-At about iteration 520:
-Traceback (most recent call last):
-  File "c:\Users\camgu\Goward Group\Goward Group Code\Ion_Channels\Code\mpAPI.py", line 27, in <module>
-    cif_data = cif.to(fmt="cif")
-               ^^^^^^
-AttributeError: 'list' object has no attribute 'to'
-'''
+
+#At about iteration 520:
+#Traceback (most recent call last):
+#  File "c:\Users\camgu\Goward Group\Goward Group Code\Ion_Channels\Code\mpAPI.py", line 27, in <module>
+#    cif_data = cif.to(fmt="cif")
+#               ^^^^^^
+#AttributeError: 'list' object has no attribute 'to'
