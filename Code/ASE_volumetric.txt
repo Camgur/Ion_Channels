@@ -1,0 +1,10 @@
+from ase.build import molecule
+from weas_widget import WeasWidget
+from ase.io.cube import read_cube_data
+
+volume, atoms = read_cube_data("h2o-homo.cube")
+viewer = WeasWidget()
+viewer.from_ase(atoms)
+viewer.avr.iso.volumetric_data = {"values": volume}
+viewer.avr.iso.settings = [{"isovalue": 0.0001, "mode": 0}]
+viewer
