@@ -30,7 +30,7 @@ base = '/home/cgurwell/scratch/optimise/'
 atoms = read(file)
 
 # Setting the MACE-MP-0 Calculator
-calculator = MACECalculator(model_paths='~/projects/rrg-ravh011/cgurwell/Ion_Channels/2024-01-07-mace-128-L2_epoch-199.model',
+calculator = MACECalculator(model_paths='/home/cgurwell/projects/rrg-ravh011/cgurwell/Ion_Channels/2024-01-07-mace-128-L2_epoch-199.model',
                             dispersion=False, device='cpu', default_dtype='float64')
 atoms.calc = calculator
 
