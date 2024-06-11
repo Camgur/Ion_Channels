@@ -1,16 +1,16 @@
 # generated using pymatgen
-data_LiLuZnFeO4
+data_LuZnFeO4
 _symmetry_space_group_name_H-M   'P 1'
-_cell_length_a   3.28266141
-_cell_length_b   3.28266200
-_cell_length_c   10.65568205
-_cell_angle_alpha   81.13925871
-_cell_angle_beta   98.86074232
-_cell_angle_gamma   120.00000597
+_cell_length_a   8.83175115
+_cell_length_b   8.83175115
+_cell_length_c   8.83175154
+_cell_angle_alpha   22.38641522
+_cell_angle_beta   22.38641522
+_cell_angle_gamma   22.38642339
 _symmetry_Int_Tables_number   1
-_chemical_formula_structural   LiLuZnFeO4
-_chemical_formula_sum   'Li1 Lu1 Zn1 Fe1 O4'
-_cell_volume   97.85514073
+_chemical_formula_structural   LuZnFeO4
+_chemical_formula_sum   'Lu1 Zn1 Fe1 O4'
+_cell_volume   87.63336185
 _cell_formula_units_Z   1
 loop_
  _symmetry_equiv_pos_site_id
@@ -24,11 +24,10 @@ loop_
  _atom_site_fract_y
  _atom_site_fract_z
  _atom_site_occupancy
-  Li  Li0  1  0.49759600  0.50240400  0.49278700  1
-  Lu  Lu1  1  0.00093600  0.99906400  0.00280700  1
-  Zn  Zn2  1  0.76580700  0.23419300  0.29742000  1
-  Fe  Fe3  1  0.23441000  0.76559000  0.70323000  1
-  O  O4  1  0.87565100  0.12434900  0.62695300  1
-  O  O5  1  0.12361900  0.87638100  0.37085800  1
-  O  O6  1  0.70304500  0.29695500  0.10913700  1
-  O  O7  1  0.29893600  0.70106400  0.89680900  1
+  Lu  Lu0  1  0.00303500  0.00303500  0.00303500  1
+  Zn  Zn1  1  0.21924300  0.21924300  0.21924300  1
+  Fe  Fe2  1  0.78665000  0.78665000  0.78665000  1
+  O  O3  1  0.12000900  0.12000900  0.12000900  1
+  O  O4  1  0.86503000  0.86503000  0.86503000  1
+  O  O5  1  0.29621200  0.29621200  0.29621200  1
+  O  O6  1  0.70982000  0.70982000  0.70982000  1

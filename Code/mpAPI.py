@@ -11,37 +11,27 @@ mpr = MPRester(api_key='n2wdTtixZm1iaLdGBjboJmEEv4TEc4zl')
 # Get structures
 structures = mpr.materials.insertion_electrodes.search(working_ion='Li', fields='material_ids')
 
-x = 0
-
 # Parse structures
-for structure in structures:
-    id = structure.material_ids
+for i, structure in enumerate(structures):
 
     # Convert the structure to a CIF string and save to a CIF file
+    id = structure.material_ids
     cif = mpr.get_structure_by_material_id(id)
-    if type(cif) == 'list':
+    print(i, type(cif))
+
+    # Skip bad data
+    if cif.__class__ != 'pymatgen.core.structure.Structure':
         continue
+
     cif_data = cif.to(fmt="cif")
 
     # Set output directory
     output = os.path.join(module_path, 'cif', id[0] + '.cif')
-    # print(output)
-    # assert 0
 
     # Write to CIF
     with open(output, "w") as f:
         f.write(cif_data)
 
-    x += 1
-
-    if x%100 == 0:
+    # Counter for server spamming
+    if i%100 == 0:
         time.sleep(5)
-
-
-
-#At about iteration 520:
-#Traceback (most recent call last):
-#  File "c:\Users\camgu\Goward Group\Goward Group Code\Ion_Channels\Code\mpAPI.py", line 27, in <module>
-#    cif_data = cif.to(fmt="cif")
-#               ^^^^^^
-#AttributeError: 'list' object has no attribute 'to'

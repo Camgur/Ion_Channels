@@ -1,16 +1,16 @@
 # generated using pymatgen
-data_LiCo2CuO6
+data_Li3Co2CuO6
 _symmetry_space_group_name_H-M   'P 1'
-_cell_length_a   6.64180250
-_cell_length_b   2.81761803
-_cell_length_c   5.79731000
-_cell_angle_alpha   90.00001393
-_cell_angle_beta   104.18537071
-_cell_angle_gamma   77.75382916
+_cell_length_a   6.59726691
+_cell_length_b   6.59726691
+_cell_length_c   5.91997959
+_cell_angle_alpha   76.74348605
+_cell_angle_beta   76.74348605
+_cell_angle_gamma   25.70028245
 _symmetry_Int_Tables_number   1
-_chemical_formula_structural   LiCo2CuO6
-_chemical_formula_sum   'Li1 Co2 Cu1 O6'
-_cell_volume   102.63487701
+_chemical_formula_structural   Li3Co2CuO6
+_chemical_formula_sum   'Li3 Co2 Cu1 O6'
+_cell_volume   108.60344924
 _cell_formula_units_Z   1
 loop_
  _symmetry_equiv_pos_site_id
@@ -24,13 +24,15 @@ loop_
  _atom_site_fract_y
  _atom_site_fract_z
  _atom_site_occupancy
-  Li  Li0  1  0.66313400  0.66843200  0.16211400  1
-  Co  Co1  1  0.99582000  0.00209000  0.99311600  1
-  Co  Co2  1  0.67731500  0.66134200  0.65862900  1
-  Cu  Cu3  1  0.32529500  0.33735300  0.34947400  1
-  O  O4  1  0.99119100  0.50440400  0.20763600  1
-  O  O5  1  0.37837800  0.81081000  0.57265400  1
-  O  O6  1  0.69614200  0.15192900  0.88871900  1
-  O  O7  1  0.29870200  0.85064900  0.12449900  1
-  O  O8  1  0.66161300  0.16919400  0.43541800  1
-  O  O9  1  0.97907500  0.51046200  0.77440900  1
+  Li  Li0  1  0.16246300  0.16246300  0.16488100  1
+  Li  Li1  1  0.50000000  0.50000000  0.50000000  1
+  Li  Li2  1  0.83753700  0.83753700  0.83511800  1
+  Co  Co3  1  0.16431500  0.16431500  0.66535600  1
+  Co  Co4  1  0.83568500  0.83568500  0.33464400  1
+  Cu  Cu5  1  0.50000000  0.50000000  0.00000000  1
+  O  O6  1  0.66200400  0.66200400  0.90400100  1
+  O  O7  1  0.99380300  0.99380300  0.23786800  1
+  O  O8  1  0.32642900  0.32642900  0.56991900  1
+  O  O9  1  0.00619700  0.00619700  0.76213200  1
+  O  O10  1  0.33799600  0.33799600  0.09599900  1
+  O  O11  1  0.67357100  0.67357100  0.43008100  1
