@@ -5,18 +5,11 @@ import torch
 import numpy as np
 import mace
 
-import matplotlib as mpl
-import matplotlib.pyplot as plt
-
 from mace.calculators import mace_mp, MACECalculator
-from ase.calculators.loggingcalc import LoggingCalculator
 from ase.optimize import BFGS
 
-from ase.visualize import view
-from ase.visualize.plot import plot_atoms
 from ase import build, units, atoms
 from ase.io import read, write, Trajectory
-from ase.io.animation import write_gif
 
 from ase.constraints import ExpCellFilter, StrainFilter, UnitCellFilter
 from ase.spacegroup.symmetrize import FixSymmetry, check_symmetry
