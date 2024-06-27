@@ -36,7 +36,7 @@ atoms.calc = calculator
 MaxwellBoltzmannDistribution(atoms, temperature_K=298.)
 
 # Set Langevin dynamics simulation
-dyn = Langevin(atoms, dt=0.5*units.fs, temperature_K=298., 
+dyn = Langevin(atoms, timestep=0.5*units.fs, temperature_K=298., 
                friction=1e-4, trajectory=logfile.replace('.log', '.traj'))
 dyn.attach(MDLogger(dyn=dyn, atoms=atoms, logfile=logfile, 
                     header=True, stress=True, peratom=True, mode="a"), interval=10)
