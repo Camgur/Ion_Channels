@@ -14,18 +14,18 @@ from ase.md import Langevin
 
 # Set file input
 file = sys.argv[1]
-filename = os.path.basename(file)
+filename = os.path.basename(file).replace('.cif', '')
 base = '/home/cgurwell/scratch/aseMD/'
 logfile = base + filename + '_md' + '.log'
+
+# Read atoms object
+atoms = read(file)
 
 # Erase previous file contents
 try:
     open(logfile, 'w').close()
 finally:
     pass
-
-# Read atoms object
-atoms = read(file)
 
 # Set calculator
 calculator = MACECalculator(model_paths='/home/cgurwell/projects/rrg-ravh011/cgurwell/Ion_Channels/2024-01-07-mace-128-L2_epoch-199.model',
