@@ -11,4 +11,4 @@
 #SBATCH --mail-user=gurwellc@mcmaster.ca
 #SBATCH --mail-type=ALL
 
-python "$HOME/projects/rrg-ravh011/cgurwell/Ion_Channels/Code/aseMD.py"
+python "$HOME/projects/rrg-ravh011/cgurwell/Ion_Channels/Code/aseMD.py" "$HOME/scratch/optimise/mp-1178027.cif"
