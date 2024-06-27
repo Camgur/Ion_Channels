@@ -39,7 +39,7 @@ MaxwellBoltzmannDistribution(atoms, temperature_K=298.)
 dyn = Langevin(atoms, timestep=0.5*units.fs, temperature_K=298., 
                friction=1e-4, trajectory=logfile.replace('.log', '.traj'))
 dyn.attach(MDLogger(dyn=dyn, atoms=atoms, logfile=logfile, 
-                    header=True, stress=True, peratom=True, mode="a"), interval=10)
+                    header=True, stress=True, peratom=True, mode="a"), interval=100)
 
 # Run dynamics sim
-dyn.run(50)
+dyn.run(10000)
