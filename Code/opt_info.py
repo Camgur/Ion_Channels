@@ -10,9 +10,10 @@ opt_conf = read(r"C:\Users\camgu\Goward Group\Code\Ion_Channels\lammps\Na4Sn2Ge5
 init_conf.calc = calculator
 opt_conf.calc = calculator
 
-print("Cell size before: ", init_conf.cell)
-print(init_conf.get_forces())
-print(init_conf.get_potential_energy())
-print("Cell size after: ", opt_conf.cell)
-print(opt_conf.get_forces())
-print(opt_conf.get_potential_energy())
+# print("Cell size before: ", init_conf.cell)
+# print(init_conf.get_forces())
+# print(init_conf.get_potential_energy())
+# print("Cell size after: ", opt_conf.cell)
+# print(opt_conf.get_forces())
+# print(opt_conf.get_potential_energy())
+
